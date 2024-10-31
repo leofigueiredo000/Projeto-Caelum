@@ -7,7 +7,16 @@
   text-align: right;
   width: 140px;
   padding-top: 8px; 
+  position: absolute;
+  right: 0;
+  top: 0;
   
+}
+.menu-opcoes{
+position: absolute;
+right: 0;
+bottom: 0;
+
 }
 
 .menu-opcoes ul{
@@ -34,4 +43,9 @@ body{
 .container{
   margin: 0 auto;
   width: 940px;
+}
+
+header{
+
+  position: relative;
 }
