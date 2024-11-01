@@ -92,6 +92,7 @@ header {
 .painel {
   margin: 10px 0;
   padding: 10px;
+  width: 445px;
 }
 
 .painel h2 {
@@ -104,7 +105,7 @@ header {
 .painel li {
   display: inline-block;
   vertical-align: top;
-  width: 140;
+  width: 140px;
   margin: 2px;
   padding-bottom: 10px;
 }
