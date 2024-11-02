@@ -128,10 +128,26 @@ header {
 
 /*INICIO CABEÇALHO(FOOTER)*/
 
-footer img {
-  background-image: url(../img/fundo-rodape.png)
+
+footer {
+ background-image: url(../img/fundo-rodape.png);
+ clear: both;
+ padding: 20px 0;
 }
 
+footer .container{
+  position: relative;
+}
+
+.social{
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+.social li{
+float: left;
+margin-left: 25px;
+}
 .social a {
   height: 32px;
   width: 32px;
@@ -148,4 +164,9 @@ footer img {
 .social a[href*="twitter.com"]{
 
   background-image: url(../img/twitter.png);
+}
+
+.social a[href*="google.com"]{
+
+  background-image: url(../img/googleplus.png);
 }
