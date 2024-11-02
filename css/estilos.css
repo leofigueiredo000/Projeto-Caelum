@@ -125,3 +125,27 @@ header {
   float: right;
   background-color: #dcdcf5;
 }
+
+/*INICIO CABEÇALHO(FOOTER)*/
+
+footer img {
+  background-image: url(../img/fundo-rodape.png)
+}
+
+.social a {
+  height: 32px;
+  width: 32px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"]{
+
+  background-image: url(../img/facebook.png);
+
+}
+
+.social a[href*="twitter.com"]{
+
+  background-image: url(../img/twitter.png);
+}
