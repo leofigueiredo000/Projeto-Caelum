@@ -28,6 +28,13 @@
   margin-left: 20px;
 }
 
+.menu-opcoes a:hover {
+  color: #007dc6;
+}
+
+.menu-opcoes a:active {
+  color: #867dc6;
+}
 body {
   color: #333333;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -76,6 +83,26 @@ header {
   color: #333333;
   text-decoration: none;
 }
+.menu-departamentos li ul {
+
+  display: none;
+  
+}
+
+.menu-departamentos li:hover ul{
+  display: block;
+ 
+}
+
+.menu-departamentos ul ul li{
+  background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a::before
+{
+  content: '\272A';
+  padding-right: 3px;
+}
 
 .busca input {
   vertical-align: middle;
@@ -100,6 +127,12 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.painel h2::before{
+  content: '\2756';
+  padding-right: 5px;
+  opacity: 0.4;
 }
 
 .painel li {
@@ -128,25 +161,24 @@ header {
 
 /*INICIO CABEÇALHO(FOOTER)*/
 
-
 footer {
- background-image: url(../img/fundo-rodape.png);
- clear: both;
- padding: 20px 0;
+  background-image: url(../img/fundo-rodape.png);
+  clear: both;
+  padding: 20px 0;
 }
 
-footer .container{
+footer .container {
   position: relative;
 }
 
-.social{
+.social {
   position: absolute;
   top: 12px;
   right: 0;
 }
-.social li{
-float: left;
-margin-left: 25px;
+.social li {
+  float: left;
+  margin-left: 25px;
 }
 .social a {
   height: 32px;
@@ -155,18 +187,14 @@ margin-left: 25px;
   text-indent: -9999px;
 }
 
-.social a[href*="facebook.com"]{
-
+.social a[href*="facebook.com"] {
   background-image: url(../img/facebook.png);
-
 }
 
-.social a[href*="twitter.com"]{
-
+.social a[href*="twitter.com"] {
   background-image: url(../img/twitter.png);
 }
 
-.social a[href*="google.com"]{
-
+.social a[href*="google.com"] {
   background-image: url(../img/googleplus.png);
 }
