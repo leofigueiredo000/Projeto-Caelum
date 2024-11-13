@@ -27,7 +27,7 @@
         <img src="img/produtos/foto2-rosa.png" alt="rosa">
       </label>
 
-      <input type="radio" name="azul" id="azul" value="azul">
+      <input type="radio" name="cor" id="azul" value="azul">
       <label for="azul">
         <img src="img/produtos/foto2-azul.png" alt="azul">
       </label>
